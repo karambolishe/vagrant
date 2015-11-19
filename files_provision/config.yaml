@@ -1,0 +1,8 @@
+---
+conf:
+    admin:
+        user: 'root'
+        pass: 'Metallica21'
+    wordPress_user:
+        user: 'wp'
+        pass: '12345qwerty'
