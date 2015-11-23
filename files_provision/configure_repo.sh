@@ -1,0 +1,3 @@
+echo "deb http://p-repo-app0.surc.kiev.ua/ua.archive.ubuntu.com/14_04/ trusty main restricted universe multiverse" > /etc/apt/sources.list
+echo "deb http://p-repo-app0.surc.kiev.ua/ua.archive.ubuntu.com/14_04/ trusty-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://p-repo-app0.surc.kiev.ua/ua.archive.ubuntu.com/14_04/ trusty-updates main restricted universe multiverse" >> /etc/apt/sources.list
