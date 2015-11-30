@@ -7,7 +7,7 @@ Vagrant.configure(2) do |config|
   config.vm.define "web" do |web|
     web.vm.box = "ubuntu/trusty64"
     if ENV['ENV'] != 'linux'
-      web.vm.synced_folder "D:/Vagrant_project/files_provision/", "/home/vagrant/files_provision"
+      web.vm.synced_folder "D:/repo_GIT_my/project_Vagrant/files_provision/", "/home/vagrant/files_provision" 
     else
       web.vm.synced_folder "~/Karambol/learning/devops/devops_course/gitlab_academy/devopslab/vagrant_karambolishe/files_provision/", "/home/vagrant/files_provision"
     end
